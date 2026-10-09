@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="search-bar">
+            <input type="text" id="input" value="Delhi(India)" />
+            <button id="btn"><img src="search.png" alt="" /></button>
+        </div>
+        <div id="weather">
+            <img alt="" id="img" />
+            <p id="temp"></p>
+            <p id="city"></p>
+        </div>
+        <div id="weather-more">
+            <div>
+                <img src="humidity.png" alt="" srcset="" />
+                <p id="humidity"></p>
+            </div>
+            <div>
+                <img src="winds.png" alt="" srcset="" />
+                <p id="winds"></p>
+            </div>
+        </div>
+
+        <div id="forecast">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
